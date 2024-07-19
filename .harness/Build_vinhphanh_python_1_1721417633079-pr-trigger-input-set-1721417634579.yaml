@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vinhphanh_python_1_1721417633079-pr-trigger-input-set
+  identifier: Build_vinhphanh_python_1_1721417633079prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vinhphanh_python_1_1721417633079
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
