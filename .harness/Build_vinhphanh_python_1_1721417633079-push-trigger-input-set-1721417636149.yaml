@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vinhphanh_python_1_1721417633079-push-trigger-input-set
+  identifier: Build_vinhphanh_python_1_1721417633079pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vinhphanh_python_1_1721417633079
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
